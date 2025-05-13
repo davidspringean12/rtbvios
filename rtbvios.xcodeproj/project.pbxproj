@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49BF59502DD3948000FAFBE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF594F2DD3948000FAFBE9 /* MapKit.framework */; };
+		49BF59532DD394B400FAFBE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59512DD394B400FAFBE9 /* CoreLocation.framework */; };
+		49BF59542DD394B400FAFBE9 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */; };
+		49BF59562DD394BB00FAFBE9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		49668A802DD3357E00AB1F83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +34,28 @@
 		49668A722DD3357C00AB1F83 /* rtbvios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtbvios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49668A7F2DD3357E00AB1F83 /* rtbviosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtbviosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49668A892DD3357E00AB1F83 /* rtbviosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rtbviosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BF594F2DD3948000FAFBE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49BF59512DD394B400FAFBE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		49BF594D2DD38BB500FAFBE9 /* Exceptions for "rtbvios" folder in "rtbvios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SupportingFiles/Info.plist,
+			);
+			target = 49668A712DD3357C00AB1F83 /* rtbvios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		49668A742DD3357C00AB1F83 /* rtbvios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				49BF594D2DD38BB500FAFBE9 /* Exceptions for "rtbvios" folder in "rtbvios" target */,
+			);
 			path = rtbvios;
 			sourceTree = "<group>";
 		};
@@ -52,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF59562DD394BB00FAFBE9 /* SwiftUI.framework in Frameworks */,
+				49BF59532DD394B400FAFBE9 /* CoreLocation.framework in Frameworks */,
+				49BF59542DD394B400FAFBE9 /* CoreLocationUI.framework in Frameworks */,
+				49BF59502DD3948000FAFBE9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,7 @@
 				49668A742DD3357C00AB1F83 /* rtbvios */,
 				49668A822DD3357E00AB1F83 /* rtbviosTests */,
 				49668A8C2DD3357E00AB1F83 /* rtbviosUITests */,
+				49BF594E2DD3948000FAFBE9 /* Frameworks */,
 				49668A732DD3357C00AB1F83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +119,17 @@
 				49668A892DD3357E00AB1F83 /* rtbviosUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		49BF594E2DD3948000FAFBE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */,
+				49BF59512DD394B400FAFBE9 /* CoreLocation.framework */,
+				49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */,
+				49BF594F2DD3948000FAFBE9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

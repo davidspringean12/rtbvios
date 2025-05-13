@@ -1,14 +1,8 @@
-//
-//  rtbviosApp.swift
-//  rtbvios
-//
-//  Created by David Springean on 13.05.25.
-//
-
 import SwiftUI
+import MapKit
 
 @main
-struct rtbviosApp: App {
+struct BusVisualizerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
