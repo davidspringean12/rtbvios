@@ -1,8 +1,10 @@
-//
-//  BusAnnotation.swift
-//  rtbvios
-//
-//  Created by David Springean on 13.05.25.
-//
+import MapKit
 
-import Foundation
+class BusAnnotation: NSObject, MKAnnotation {
+    @objc dynamic var coordinate: CLLocationCoordinate2D
+    
+    init(coordinate: CLLocationCoordinate2D) {
+        self.coordinate = coordinate
+        super.init()
+    }
+}

@@ -11,6 +11,7 @@
 		49BF59532DD394B400FAFBE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59512DD394B400FAFBE9 /* CoreLocation.framework */; };
 		49BF59542DD394B400FAFBE9 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */; };
 		49BF59562DD394BB00FAFBE9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */; };
+		49BF595C2DD3BA6400FAFBE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BF595B2DD3BA6400FAFBE9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		49BF59512DD394B400FAFBE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
 		49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		49BF595B2DD3BA6400FAFBE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF595C2DD3BA6400FAFBE9 /* Foundation.framework in Frameworks */,
 				49BF59562DD394BB00FAFBE9 /* SwiftUI.framework in Frameworks */,
 				49BF59532DD394B400FAFBE9 /* CoreLocation.framework in Frameworks */,
 				49BF59542DD394B400FAFBE9 /* CoreLocationUI.framework in Frameworks */,
@@ -124,6 +127,7 @@
 		49BF594E2DD3948000FAFBE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49BF595B2DD3BA6400FAFBE9 /* Foundation.framework */,
 				49BF59552DD394BB00FAFBE9 /* SwiftUI.framework */,
 				49BF59512DD394B400FAFBE9 /* CoreLocation.framework */,
 				49BF59522DD394B400FAFBE9 /* CoreLocationUI.framework */,
@@ -443,6 +447,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +476,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
